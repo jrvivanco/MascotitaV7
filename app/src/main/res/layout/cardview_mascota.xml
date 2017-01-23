@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview"
+
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        >
+        <ImageView
+            android:id="@+id/imgFotoCV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/puppy"
+            android:scaleType="centerInside"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageButton
+                android:id="@+id/imgHuesoCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bone"
+                android:background="@color/fondo_blanco"
+                />
+            <TextView
+                android:id="@+id/tvNombreCV"
+                android:layout_toRightOf="@+id/imgHuesoCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="mascota"
+                android:textSize="@dimen/tv_mascota"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvPuntosCV"
+                android:layout_toLeftOf="@+id/imgHuesoColorCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tv_mascota"
+                android:text="3"
+                />
+            <ImageButton
+                android:id="@+id/imgHuesoColorCV"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/color_bone"
+                android:background="@color/fondo_blanco"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

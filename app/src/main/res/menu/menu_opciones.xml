@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"    >
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="100"
+        ></item>
+    <item
+        android:id="@+id/mAcercaDe"
+        android:title="@string/menu_acercade"
+        android:orderInCategory="120"
+        ></item>
+    <item
+        android:id="@+id/mPedirUsuarioInstagram"
+        android:title="@string/menu_pedir_usuario_instagram"
+        android:orderInCategory="120"
+        ></item>
+    <item
+        android:id="@+id/mRecibirNotificaciones"
+        android:title="@string/menu_recibir_notificaciones"
+        android:orderInCategory="120"
+        ></item>
+</menu>

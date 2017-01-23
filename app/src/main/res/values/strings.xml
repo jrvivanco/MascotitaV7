@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mascotita 7.0</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acercade">Acerca de</string>
+    <string name="menu_pedir_usuario_instagram">Configurar Cuenta</string>
+    <string name="menu_recibir_notificaciones">Recibir Notificaciones</string>
+    <string name="acercade_nombre">J.R. Vivanco</string>
+    <string name="acercade_titulo">Creado con Android Studio 2.2.3</string>
+    <string name="acercade_subtitulo">(c) 2017 CDMX, MEXICO</string>
+    <string name="acercade_link">https://twitter.com/jr_vivanco</string>
+    <string name="pide_email">Introduce email</string>
+    <string name="pide_nombre">Introduce tu nombre</string>
+    <string name="pide_mensaje">Introduce tu mensaje</string>
+    <string name="enviar_comentario">Enviar Comentario</string>
+    <string name="pedir_usr_instagram_title">Mascotita 7.0</string>
+    <string name="edt_pide_usuario">Introduce usuario cuenta Instagram</string>
+    <string name="enviar_usr_instagram">Guardar Cuenta</string>
+    <string name="hint_nombre">Nombre Completo</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_comentario">Ingrese sus comentarios</string>
+    <string name="hint_autor">J. R. Vivanco</string>
+    <string name="hint_copyright">Desarrollado en Android Studio 2.2.3</string>
+    <string name="mnuCuenta">Configurar Cuenta</string>
+    <string name="txt_usuario">Escribe tu usuario</string>
+    <string name="txtBtnGuardarCuenta">Guardar cuenta</string>
+    <string name="txtRecibirNotificaciones">Recibir Notificaciones</string>
+</resources>

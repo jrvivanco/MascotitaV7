@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="tv_mascota">30sp</dimen>
+    <dimen name="tv_acercade_autor">40sp</dimen>
+    <dimen name="tv_acercade_titulo">30sp</dimen>
+    <dimen name="tv_acercade_subt">20sp</dimen>
+    <dimen name="txt_boton_enviar">25sp</dimen>
+    <dimen name="cv_ancho">300dp</dimen>
+
+    <dimen name="horizontal_margin">50dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+
+    <dimen name="margen_txt_mimascota">40dp</dimen>
+    <dimen name="foto_txt_mimascota">20sp</dimen>
+    <dimen name="alto_img_mimascota">75dp</dimen>
+    <dimen name="alto_cvMiMascota">100dp</dimen>
+    <dimen name="alto_cvMascotaInst">170dp</dimen>
+    <dimen name="alto_imgColorBone">27dp</dimen>
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascotaInst"
+    android:layout_width="@dimen/alto_cvMiMascota"
+    android:layout_height="@dimen/alto_cvMiMascota"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/imgFotoInst"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/alto_img_mimascota"
+            android:src="@drawable/puppy"
+            android:scaleType="centerInside"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+            <TextView
+                android:id="@+id/tvLikesInst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/foto_txt_mimascota"
+                android:text="3"
+
+            />
+            <ImageView
+                android:id="@+id/imgHuesoInst"
+                android:layout_width="@dimen/foto_txt_mimascota"
+                android:layout_height="@dimen/foto_txt_mimascota"
+                android:src="@drawable/color_bone"
+                android:background="@color/fondo_blanco"
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
